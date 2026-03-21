@@ -1,0 +1,1 @@
+SELECT * FROM smart_influencer.influencer;
