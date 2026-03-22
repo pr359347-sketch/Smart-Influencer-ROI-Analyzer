@@ -13,7 +13,7 @@ create table influencer_data(
     category VARCHAR(50),
     predicted_roi FLOAT
 );
-select * from influencer;
+select * from influencer_data;
 
 
  
