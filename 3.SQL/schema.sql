@@ -1,24 +1,18 @@
 create database influencer_db;
 use influencer_db;
 create table influencer(
-    influencer_name VARCHAR(255),
+    
+    influencer_id INT PRIMARY KEY,
+    influencer_name VARCHAR(100),
     platform VARCHAR(50),
     followers INT,
+    engagement_rate FLOAT,
     likes INT,
     comments INT,
-    shares INT,
-    impressions INT,
-    clicks INT,
-    conversions INT,
     campaign_cost FLOAT,
-    revenue FLOAT,
-    content_type VARCHAR(50),
-    campaign_date DATE,
-    engagement_rate FLOAT,
-    roi FLOAT,
-    conversion_rate FLOAT,
-    influencer_score FLOAT,
-    influencer_type VARCHAR(50)
+    revenue_generated FLOAT,
+    category VARCHAR(50),
+    predicted_roi FLOAT
 );
 select * from influencer;
 
